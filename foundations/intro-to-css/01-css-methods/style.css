@@ -1,0 +1,17 @@
+/* div: um fundo vermelho, texto branco, tamanho de fonte de 32px, alinhamento centralizado e negrito
+p: um fundo verde, texto branco e um tamanho de fonte de 18px
+button: um fundo laranja e um tamanho de fonte de 18px
+
+Autoverificação
+Você usou todos os três métodos para adicionar CSS a um arquivo HTML?
+Você vinculou corretamente o arquivo CSS externo no arquivo HTML?
+O divelemento tem CSS adicionado por meio do método externo?
+O pelemento tem CSS adicionado por meio do método interno?
+O buttonelemento tem CSS adicionado por meio do método inline?*/
+
+div {
+    background-color: red;
+    color: white;
+    font-size: 32px;
+    text-align: center;
+}
