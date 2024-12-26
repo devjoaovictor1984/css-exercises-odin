@@ -1,0 +1,26 @@
+/*Todos os elementos ímpares : um fundo vermelho/rosa claro e 
+uma lista de fontes contendo Verdanae DejaVu Sanscom sans-serifcomo fallback
+O segundo elemento : texto azul e tamanho de fonte de 36px
+O terceiro elemento : além dos estilos para todos os elementos 
+ímpares, adicione um tamanho de fonte de 24px
+O quarto elemento : um fundo verde claro, um tamanho de fonte de 24px e negrito*/
+
+.impar {
+    background-color: rgb(255, 174, 208);
+    font-family: Verdana, DejaVu Sans, sans-serif;
+}
+
+#two {
+    color: rgb(28, 28, 223);
+    font-size: 36px;
+}
+
+.three {
+    font-size: 36px;
+}
+
+#four {
+    background-color: rgb(116, 224, 112);
+    font-size: 24px;
+    font-weight: bold;
+}
