@@ -1,0 +1,17 @@
+/*
+Somente os pelementos descendentes do divelemento devem ter 
+fundo amarelo, texto vermelho, tamanho de fonte de 20px e 
+alinhamento centralizado.
+
+Os elementos que contêm o texto "Isso deve ser estilizado" 
+têm os estilos corretos aplicados?
+Os elementos que contêm o texto "Isso deve ser sem estilo" 
+não têm estilos aplicados?
+*/
+
+.container .text {
+    background-color: yellow;
+    color: red;
+    text-align: center;
+    font-size: 20px;
+}
