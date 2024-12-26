@@ -1,0 +1,28 @@
+/*
+Cada elemento tem um nome de classe exclusivo?
+Você usou o seletor de agrupamento para estilos que ambos os elementos compartilham?
+Você criou regras separadas para os estilos exclusivos de cada elemento?
+
+O primeiro elemento : um fundo preto e texto branco
+O segundo elemento : um fundo amarelo
+Ambos os elementos : um tamanho de fonte de 28px e uma lista de fontes 
+contendo Helveticae Times New Roman, com sans-serifcomo fallback
+*/
+
+.one,
+.two {
+
+    font-family: Helvetica, 'Times New Roman', sans-serif;
+    font-size: 28px;
+
+}
+
+.one {
+    background-color: #000;
+    color: #fff;
+}
+
+.two {
+    background-color: rgb(238, 199, 28);
+    color: #000;
+}
