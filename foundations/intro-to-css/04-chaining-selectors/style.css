@@ -1,1 +1,29 @@
-/* Add CSS Styling */
+/* Add CSS Styling 
+
+Crie um elemento com as classes avatare proportionedcom 300 pixels de largura e, 
+em seguida, dê a ele uma altura para que ele mantenha suas proporções quadradas 
+originais (não insira um valor de pixel para a altura!).
+Crie um elemento com as classes avatare distortedcom 200 pixels de largura e, em 
+seguida, faça com que sua altura seja duas vezes maior que sua largura (aqui você 
+deve codificar um valor de pixel).
+
+Você encadeou corretamente os seletores de classe para cada regra?
+A proportionedimagem mantém suas proporções quadradas originais?
+A distortedimagem acaba parecendo achatada e, bem, distorcida?
+
+*/
+
+.avatar.proportioned {
+    width: 300px;
+    height: auto;
+}
+
+
+
+.avatar.distorted {
+    width: 200px;
+    height: 400px;
+}
+
+
+
